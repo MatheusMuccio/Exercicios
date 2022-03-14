@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class Exercicio5 {
-
+    
     public static void main(String [] args){
 
         int num;
@@ -16,6 +16,11 @@ public class Exercicio5 {
             num = num / 2;
         }else{
             num = 3 * num + 1;
+        }
+        while (num != 40){
+            System.out.println("Digite um número: ");
+            num = leitura.nextInt();
+
         }
         System.out.println(num);
     }
