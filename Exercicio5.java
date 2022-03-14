@@ -12,17 +12,20 @@ public class Exercicio5 {
         System.out.println("Digite um número: ");
         num = leitura.nextInt();
 
-        if (num % 2 == 0){
-            num = num / 2;
-        }else{
-            num = 3 * num + 1;
-        }
-        while (num != 40){
-            System.out.println("Digite um número: ");
-            num = leitura.nextInt();
+        while (num > 1){
+            if (num % 2 == 0){
+                num = num / 2;
+            }
+            else{
+                num = 3 * num + 1;
+            }
 
+        System.out.print(num + " -> ");
+        leitura.close();
         }
-        System.out.println(num);
+        
+        }
+        
     }
     
-}
+
