@@ -22,7 +22,7 @@ public class Exercicio5 {
 
         System.out.print(num + " -> ");
         leitura.close();
-        }
+            }
         
         }
         
